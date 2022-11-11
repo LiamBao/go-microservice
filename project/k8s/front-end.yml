@@ -14,6 +14,7 @@ spec:
     spec:
       containers:
       - name: front-end
+        # image: "liambao/gomicro-frontend-service:1.0.2"
         image: "tsawler/front-end:1.0.1"
         resources:
           requests:

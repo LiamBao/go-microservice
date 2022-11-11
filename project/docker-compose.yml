@@ -37,8 +37,8 @@ services:
       MAIL_ENCRYPTION: none
       MAIL_USERNAME: ""
       MAIL_PASSWORD: ""
-      FROM_NAME: "John Smith"
-      FROM_ADDRESS: john.smith@example.com
+      FROM_NAME: "Liam Bao"
+      FROM_ADDRESS: kai.bao@example.com
 
   authentication-service:
     build:
@@ -62,7 +62,7 @@ services:
       replicas: 1
 
   postgres:
-    image: 'postgres:14.0'
+    image: 'postgres:14.2'
     ports:
       - "5432:5432"
     restart: always
